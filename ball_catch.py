@@ -155,7 +155,7 @@ while True:
 
                     if points_earned > 0:
                         for _ in range(points_earned):
-                            if len(collected_balls) < balls_per_row * 4:  # cap at box capacity
+                            if len(collected_balls) < balls_per_row * 4:
                                 row = len(collected_balls) // balls_per_row
                                 col = len(collected_balls) % balls_per_row
                                 collected_balls.append((row, col))
